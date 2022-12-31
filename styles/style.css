@@ -170,7 +170,7 @@
   flex-wrap      : wrap;
   margin         : auto;
   justify-content: space-between;
-  padding-bottom:100px;
+  padding-bottom : 100px;
 
 }
 
@@ -232,7 +232,7 @@
   font-weight    : normal;
   text-decoration: none;
   color          : #2F80ED;
-  cursor:pointer;
+  cursor         : pointer;
 }
 
 .feynman__title {
