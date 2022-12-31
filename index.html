@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Aprender a aprender</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles/normalize.css" />
-  <link rel="stylesheet" href="styles/style.css" />
-  <title>Aprender a aprender</title>
-</head>
-
-<body>
-  <div class="page">
-    <!-- <header class="header">
+  <body>
+    <div class="page">
+      <header class="header">
         <img
           class="logo logo_place_header"
           src="images/logo_place_header.png"
@@ -29,9 +28,9 @@
           src="images/header-image.png"
           alt="Ilustración Principal"
         />
-      </header> -->
-    <main class="content">
-      <!--       <section class="description">
+      </header>
+      <main class="content">
+              <section class="description">
           <div class="two-columns">
             <p class="two-columns__brief">El principal problema de la educación</p>
             <div class="two-columns__main-text">
@@ -51,9 +50,9 @@ del aprendizaje eficaz.</p>
             </div>
           </div>
 
-        </section> -->
+        </section>
 
-      <!-- <section class="digits">
+        <section class="digits">
           <h2 class="section-title">Datos y figuras</h2>
           <p class="section-subtitle">El aprendizaje y el cerebro</p>
           <ul class="table">
@@ -116,9 +115,9 @@ del aprendizaje eficaz.</p>
               </p>
             </li>
           </ul>
-        </section> -->
+        </section>
 
-      <!-- <section class="feynman">
+        <section class="feynman">
           <h2 class="feynman__title">La técnica Feynman</h2>
           <p class="feynman__subtitle">Aprende sin olvidar</p>
           <a href="#" class="feynman__link">Más &#8594;</a>
@@ -130,9 +129,9 @@ deriva de sus métodos de estudio cuando era estudiante en
 Princeton."
             class="feynman__image"
           />
-        </section> -->
+        </section>
 
-      <!--  <section class="kaufman">
+         <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Ten principles of rapid skill
           acquisition</h2>
         <p class="section-subtitle section-subtitle_theme_dark">by Josh Kaufman</p>
@@ -194,48 +193,59 @@ Princeton."
           <img src="/images/kaufman-triangle.svg" alt="Un gran triángulo azul, sobre el que
           Josh Kaufman reclama la propiedad">
         </div>
-      </section> -->
-    </main>
-    <footer class="footer">
-      <div class="footer__columns">
-        <div class="footer__column-copyright">
-          <img
-            src="./images/logo_place_footer.png"
-            class="logo logo_place-footer"
-            alt="logo"
-          />
-          <p class="footer__author">&copy; 2022 Jorge Sepúlveda Turpie</p>
+      </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__column-copyright">
+            <img
+              src="./images/logo_place_footer.png"
+              class="logo logo_place-footer"
+              alt="logo"
+            />
+            <p class="footer__author">&#169; 2022 Jorge Sepúlveda Turpie</p>
+          </div>
+          <div class="footer__columns_content_about">
+            <p class="footer__column-heading">Acerca de Practicum de Yandex</p>
+            <ul class="footer__list">
+              <a class="footer__column-link" href="#">
+                <li class="footer__list">Página principal</li>
+              </a>
+              <a class="footer__column-link" href="#">
+                <li class="footer__list">Misión</li>
+              </a>
+              <a class="footer__column-link" href="#">
+                <li class="footer__list">Profesiones</li>
+              </a>
+            </ul>
+          </div>
+          <div class="footer__columns_content_social">
+            <p class="footer__column-heading">Redes sociales</p>
+            <ul class="footer__list">
+              <a class="footer__column-link" href="https://www.facebook.com">
+                <li class="footer__list">
+                  <img
+                    class="footer__social-icons"
+                    src="images/facebook_white.svg"
+                    alt="Icono de
+            Facebook"
+                  />Facebook
+                </li></a
+              >
+              <a class="footer__column-link" href="https://www.instagram.com">
+                <li class="footer__list">
+                  <img
+                    class="footer__social-icons"
+                    src="images/instagram_white.svg"
+                    alt="Icono de
+            Instagram"
+                  />Instagram
+                </li></a
+              >
+            </ul>
+          </div>
         </div>
-
-
-        <div class="footer__columns_content_about">
-          <p  class="footer__column-heading">Acerca de Practicum en Yandex</p>
-          <ul  class="footer__list">
-            <a class="footer__column-link" href="#">
-              <li class="footer__list">Página principal</li>
-            </a>
-            <a class="footer__column-link" href="#">
-              <li class="footer__list">Misión</li>
-            </a>
-            <a class="footer__column-link" href="#">
-              <li class="footer__list">Profesiones</li>
-            </a>
-          </ul>
-        </div>
-        <div class="footer__columns_content_social">
-          <p  class="footer__column-heading">Redes sociales</p>
-          <ul  class="footer__list">
-            <img class="footer__social-icons" src="images/facebook_white.svg" alt="Icono de
-            Facebook"> <a class="footer__column-link" href=""> <li class="footer__list">Facebook</li></a>
-            <img class="footer__social-icons" src="images/instagram_white.svg" alt="Icono de
-            Instagram"><a class="footer__column-link" href=""> <li class="footer__list">Instagram</li></a>
-          </ul>
-        </div>
-
-        <div class="footer__social-icons"></div>
-      </div>
-    </footer>
-  </div>
-</body>
-
+      </footer>
+    </div>
+  </body>
 </html>
