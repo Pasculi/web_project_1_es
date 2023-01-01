@@ -195,7 +195,6 @@
 .table__subtext {
   margin-top: 20px;
 
-
 }
 
 /*Section La técnica de Feynman*/
@@ -206,12 +205,13 @@
 
 .feynman {
   height: 790px;
-  background: url("../../images/feynman.png"),
+  background: url("/images/feynman.png"),
     #f2f2f2;
   background-size    : 867px 637px;
   background-repeat  : no-repeat;
   background-position: bottom left;
   position           : relative;
+  padding: 50px 0;
 }
 
 .feynman__image {
@@ -240,6 +240,7 @@
   font-weight: normal;
   margin     : 0 auto;
   text-align : center;
+  margin-top:70px;
   z-index    : 2;
 
 }
