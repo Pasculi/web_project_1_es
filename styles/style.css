@@ -23,7 +23,7 @@
   min-height      : 600px;
   max-height      : 756px;
   padding         : 30px 0 0 64px;
-   /* parameters for the header section */
+  /* parameters for the header section */
 }
 
 .logo {
@@ -54,11 +54,11 @@
   position      : absolute;
   width         : 388px;
   padding-bottom: 30px;
-  bottom     : 30px;
-  line-height: 25px;
-  font-size  : 18px;
-  font-weight: normal;
-  z-index : 1;
+  bottom        : 30px;
+  line-height   : 25px;
+  font-size     : 18px;
+  font-weight   : normal;
+  z-index       : 1;
 
 }
 
@@ -86,8 +86,7 @@
   height          : 568px;
   width           : 568px;
   background-color: #2F80ED;
-
-  z-index: 1;
+  z-index         : 1;
 }
 
 
@@ -137,6 +136,9 @@
 }
 
 /* Section Datos y Figuras*/
+.digits {
+  padding-bottom: 100px;
+}
 
 .section-title {
   width        : 60%;
@@ -150,7 +152,6 @@
 }
 
 .section-subtitle {
-
   text-align   : center;
   width        : 60%;
   margin       : 0 auto;
@@ -167,7 +168,7 @@
   flex-wrap      : wrap;
   margin         : auto;
   justify-content: space-between;
-  padding-bottom : 100px;
+
 
 }
 
@@ -205,12 +206,12 @@
 
 .feynman {
   height: 790px;
-background: url("../../images/feynman.png"),
-#f2f2f2;
-background-size    : 867px 637px;
-background-repeat  : no-repeat;
-background-position: bottom left;
-position           : relative;
+  background: url("../../images/feynman.png"),
+    #f2f2f2;
+  background-size    : 867px 637px;
+  background-repeat  : no-repeat;
+  background-position: bottom left;
+  position           : relative;
 }
 
 .feynman__image {
@@ -242,6 +243,7 @@ position           : relative;
   z-index    : 2;
 
 }
+
 .feynman__link {
   position       : absolute;
   top            : 50%;
@@ -351,7 +353,7 @@ ul {
 
 .footer__column-link {
   text-decoration: none;
-  color:#fff;
+  color          : #fff;
 
 }
 
