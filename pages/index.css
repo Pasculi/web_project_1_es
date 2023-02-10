@@ -1,93 +1,29 @@
-* {
-  margin    : 0;
-  padding   : 0;
-  box-sizing: border-box;
-}
+/*AJUSTES DE ARCHIVO NORMALIZE.CSS*/
+@import url(../vendor/normalize.css);
 
-.page {
-  min-width  : 1100px;
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */
-  max-width  : 1600px;
-  /* here we've set a maximum page width */
-  margin     : 0 auto;
-  /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
+/*HEADER*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__square/header__square-pic.css);
 
-.header {
-  display         : flex;
-  position        : relative;
-  background-color: #ffffff;
-  height          : 100vh;
-  min-height      : 600px;
-  max-height      : 756px;
-  padding         : 30px 0 0 64px;
-  /* parameters for the header section */
-}
+/*LOGO*/
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 
-.logo {
-  width  : 154px;
-  height : 31px;
-  z-index: 0;
+/*TABLE*/
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/tabel__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/__subtext/table__subtext.css);
 
-}
+/*MAIN*/
+@import url(../blocks/main/main-illustration.css);
 
-.logo_place_header {
-  position: absolute;
-  z-index : 1;
-}
-
-.header__title {
-  display    : flex;
-  align-items: center;
-  line-height: 96px;
-  font-size  : 102px;
-  width      : 730px;
-  z-index    : 1;
-  font-weight: bold;
-
-  vertical-align: middle;
-}
-
-.header__subtitle {
-  position      : absolute;
-  width         : 388px;
-  padding-bottom: 30px;
-  bottom        : 30px;
-  line-height   : 25px;
-  font-size     : 18px;
-  font-weight   : normal;
-  z-index       : 1;
-
-}
-
-.header__link {
-  text-decoration: none;
-  color          : #2f80ed;
-}
-
-.main-illustration {
-  position        : absolute;
-  background-color: #f2f2f200;
-  width           : 756px;
-  height          : 608px;
-  bottom          : 0;
-  right           : 0;
-  z-index         : 2;
-
-}
-
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
-  position        : absolute;
-  top             : 64px;
-  right           : 0;
-  height          : 568px;
-  width           : 568px;
-  background-color: #2F80ED;
-  z-index         : 1;
-}
+/*ROOT*/
+@import url(../blocks/root/root.css);
 
 
 /*Section description*/
@@ -101,8 +37,6 @@
   margin         : 100px 0px;
   justify-content: space-between;
   width          : 80%;
-
-
 }
 
 .two-columns__brief {
@@ -162,40 +96,15 @@
 
 }
 
-.table {
-  width          : 1100px;
-  display        : flex;
-  flex-wrap      : wrap;
-  margin         : auto;
-  justify-content: space-between;
 
 
-}
 
-.table__cell {
-  width: 250px;
 
-}
 
-.table__heading {
-  margin-bottom: 20px;
-  line-height  : 1.15;
-  font-size    : 24px;
-  font-weight  : bold;
 
-}
 
-.table__text {
 
-  line-height: 1.2;
-  font-size  : 18px;
-  font-weight: normal;
-}
 
-.table__subtext {
-  margin-top: 20px;
-
-}
 
 /*Section La técnica de Feynman*/
 
@@ -211,7 +120,7 @@
   background-repeat  : no-repeat;
   background-position: bottom left;
   position           : relative;
-  padding: 50px 0;
+  padding            : 50px 0;
 }
 
 .feynman__image {
@@ -240,7 +149,7 @@
   font-weight: normal;
   margin     : 0 auto;
   text-align : center;
-  margin-top:70px;
+  margin-top : 70px;
   z-index    : 2;
 
 }
