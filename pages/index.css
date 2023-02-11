@@ -17,6 +17,9 @@
 @import url(../blocks/logo/_place/logo_place-header.css);
 @import url(../blocks/logo/_place/logo_place-footer.css);
 
+/*ROTATION*/
+@import url(../blocks/rotation/rotation.css);
+
 /*TABLE*/
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/tabel__cell.css);
@@ -33,7 +36,6 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__space-accent/two-columns__space-accent.css);
 
-
 /*DIGITIS*/
 @import url(../blocks/digits/digits.css);
 
@@ -43,7 +45,6 @@
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
-
 /*FEYNMAN*/
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__image/feynman__image.css);
@@ -51,13 +52,11 @@
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
 
-
 /*KAUFMAN*/
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 /*FOOTER*/
-
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-copyright/footer__column-copyright.css);
@@ -67,3 +66,10 @@
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icons/footer__social-icons.css);
+
+/*CARDS*/
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
