@@ -73,3 +73,36 @@
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);
+
+/*VIDEO*/
+.video {
+  width        : 1050px;
+  padding-top  : 100px;
+  margin       : 0 auto;
+  position     : relative;
+  z-index      : 20;
+  margin-bottom: -50px;
+
+}
+
+.video__iframes {
+  display        : flex;
+  justify-content: center;
+  width          : 1050px;
+  margin-top     : 50px;
+  column-gap     : 20px;
+}
+
+.video__iframe {
+  width : 515px;
+  height: 316px;
+}
+
+.oakley {
+  display         : flex;
+  padding-top     : 60px;
+  justify-content : center;
+  margin          : 0;
+  background-color: #f2f2f2f2;
+  margin-bottom:-50px;
+}
