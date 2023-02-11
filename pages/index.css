@@ -1,30 +1,20 @@
 /*AJUSTES DE ARCHIVO NORMALIZE.CSS*/
 @import url(../vendor/normalize.css);
 
+/*ROOT*/
+@import url(../blocks/root/root.css);
+
 /*HEADER*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__square/header__square-pic.css);
+@import url(../blocks/header/__main-illustration/main-illustration.css);
 
-<<<<<<< HEAD:pages/index.css
 /*LOGO*/
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
-=======
-.header {
-  display         : flex;
-  position        : relative;
-  background-color: #F2F2F2;
-  height          : 100vh;
-  min-height      : 600px;
-  max-height      : 756px;
-  padding         : 30px 0 0 64px;
-  overflow: hidden;
-  /* parameters for the header section */
-}
->>>>>>> 15bb4d81edf445de43a33fa6a91278967a76fd01:styles/style.css
 
 /*TABLE*/
 @import url(../blocks/table/table.css);
@@ -33,55 +23,14 @@
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__subtext/table__subtext.css);
 
-/*MAIN*/
-@import url(../blocks/main/main-illustration.css);
+/*DESCRIPTION*/
+@import url(../blocks/description/description.css);
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__space-accent/two-columns__space-accent.css);
 
-/*ROOT*/
-@import url(../blocks/root/root.css);
-
-
-/*Section description*/
-.description {
-  display        : flex;
-  justify-content: center;
-}
-
-.two-columns {
-  display        : flex;
-  margin         : 100px 0px;
-  justify-content: space-between;
-  width          : 80%;
-}
-
-.two-columns__brief {
-  width      : 176px;
-  color      : #2F80ED;
-  line-height: 1.2;
-  font-size  : 18px;
-  font-weight: normal;
-}
-
-.two-columns__main-text {
-  width    : 80%;
-  min-width: 784px;
-}
-
-.two-columns__paragraph {
-  line-height: 34px;
-  font-size  : 24px;
-  font-weight: normal;
-
-}
-
-.two-columns__paragraph:not(:nth-child(3)) {
-  margin-bottom: 30px;
-}
-
-.two-columns__space-accent {
-  line-height: 34px;
-  font-size  : 24px;
-  font-weight: bold;
-}
 
 /* Section Datos y Figuras*/
 .digits {
