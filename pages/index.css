@@ -22,7 +22,7 @@
 
 /*TABLE*/
 @import url(../blocks/table/table.css);
-@import url(../blocks/table/__cell/tabel__cell.css);
+@import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme-dark.css);
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
@@ -54,6 +54,7 @@
 
 /*KAUFMAN*/
 @import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__table-cell/kaufman__table-cell.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 /*FOOTER*/
