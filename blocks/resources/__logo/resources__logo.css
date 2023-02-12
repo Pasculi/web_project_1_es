@@ -3,9 +3,4 @@
   margin    : 0;
   width     : 270px;
   height    : 38px;
-  transition: opcity 1.2s
-}
-
-.resources__logo:hover {
-  opacity: 0.6;
 }
