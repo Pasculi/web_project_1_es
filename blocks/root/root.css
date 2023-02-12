@@ -8,11 +8,17 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 ul {
   list-style: none;
+}
+a{
+  transition: opcity 1.2s
+}
+a:hover{
+  opacity: 0.6;
 }

@@ -82,99 +82,21 @@
 /*OAKLEY*/
 @import url(../blocks/oakley/oakley.css);
 
+
 /*KHAN*/
-.khan{
-  background-color: #f2f2f2;
-
-}
-.khan__container{
-  width : 80%;
-  border: 2px solid green;
-  margin:0 auto;
-}
-
-.khan__author {
-  margin-top: 105px;
-  line-height: 42px;
-  font-size  : 30px;
-  font-weight: normal;
-  border     : 2px solid rgb(0, 60, 128);
-}
-
-.khan__title {
-  line-height: 1.15;
-  font-size  : 60px;
-  font-weight: bold;
-  margin-bottom: 50px;
-  border     : 2px solid rgb(128, 30, 0);
-}
-
-.khan__quote {
-  width      : 790px;
-  line-height: 34px;
-  font-size  : 24px;
-  font-weight: normal;
-  margin-bottom: 36px;
-}
-.khan__quote-author{
-   line-height: 1.15;
- font-size  : 24px;
- font-weight: bold;
- margin-bottom: 10px;
-}
-.khan__quote-author-subline{
-  line-height: 42px;
- font-size  : 24px;
- font-weight: normal;
- margin-bottom: 68px;
-}
-.khan__book-container{
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  padding-right: 48px;
-  display      : inline-block;
-  border : 2px solid rgb(0, 60, 128);
-  overflow     : hidden;
-}
-
-.khan__book-pic{
-  width : 620px;
-  max-height : 608px;
-  object-fit: contain;
-  display: inline-block;
-}
-.khan__buy-link{
-  display: inline-block;
-  line-height: 42px;
-font-size  : 30px;
-font-weight: normal;
-text-decoration: none;
-color : #2f80ed;
-margin:0;
-vertical-align: top;
-border     : 2px solid rgb(0, 60, 128);
-}
-
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/__container/khan__container.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+@import url(../blocks/khan/__author/khan__author.css);
+@import url(../blocks/khan/__title/khan__title.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
+@import url(../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
 
 /*RESOURCES*/
-.resources{
-  background-color: #fff;
-  margin-top: 100px;
-}
-.resources__logo-zone{
-  width: 1100px;
-  margin:0 auto;
-  margin-top:80px;
-  margin-bottom: 217px;
-}
-.resources__logo{
-  display: inline-block;
-  margin:0;
-  width: 270px;
-  height: 38px;
-  transition:opcity 1.2s
-}
-.resources__logo:hover {
-  opacity: 0.6;
-}
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
