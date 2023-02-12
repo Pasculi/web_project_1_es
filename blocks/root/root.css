@@ -8,6 +8,7 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
 /* *{
   margin: 0;
   padding: 0;
@@ -16,9 +17,13 @@
 ul {
   list-style: none;
 }
-a{
-  transition: opacity .8s;
+
+a {
+  -webkit-transition: opacity .8s;
+  -o-transition     : opacity .8s;
+  transition        : opacity .8s;
 }
-a:hover{
+
+a:hover {
   opacity: 0.6;
 }
