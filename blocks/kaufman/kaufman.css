@@ -1,8 +1,18 @@
 .kaufman {
-  background-color: #1F1F1F;
-  position        : relative;
-  color           : #fff;
-  padding         : 90px 0px;
-  overflow        : hidden;
-  z-index         : -3;
+  display              : -webkit-box;
+  display              : -ms-flexbox;
+  display              : flex;
+  -webkit-box-orient   : vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction   : column;
+  flex-direction       : column;
+  -webkit-box-align    : center;
+  -ms-flex-align       : center;
+  align-items          : center;
+  background-color     : #1F1F1F;
+  color                : #FFF;
+  position             : relative;
+  padding              : 90px 0px;
+  overflow             : hidden;
+  z-index              : -3;
 }

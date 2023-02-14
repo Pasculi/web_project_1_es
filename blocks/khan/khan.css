@@ -1,3 +1,10 @@
 .khan {
+  display         : -webkit-box;
+  display         : -ms-flexbox;
+  display         : flex;
+  padding-top     : 105px;
+  -webkit-box-pack: center;
+  -ms-flex-pack   : center;
+  justify-content : center;
   background-color: #f2f2f2;
 }

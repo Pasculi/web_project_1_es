@@ -2,9 +2,9 @@
   display         : -webkit-box;
   display         : -ms-flexbox;
   display         : flex;
-  margin          : 100px 0px;
   -webkit-box-pack: justify;
   -ms-flex-pack   : justify;
   justify-content : space-between;
   width           : 80%;
+  margin:auto;
 }

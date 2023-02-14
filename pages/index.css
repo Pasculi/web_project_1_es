@@ -14,11 +14,14 @@
 
 /*LOGO*/
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place/logo_place-header.css);
-@import url(../blocks/logo/_place/logo_place-footer.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 
 /*ROTATION*/
 @import url(../blocks/rotation/rotation.css);
+
+/*TECHNIQUEST*/
+@import url(../blocks/techniques/techniques.css);
 
 /*TABLE*/
 @import url(../blocks/table/table.css);
