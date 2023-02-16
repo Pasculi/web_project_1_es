@@ -64,7 +64,6 @@
 /*FOOTER*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__column/footer__column-content-social.css);
 @import url(../blocks/footer/__column/footer__column-content-about.css);
 @import url(../blocks/footer/__column/footer__column-content-copyright.css);
