@@ -1,0 +1,9 @@
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+}
+
+.footer__column:nth-child(1) {
+    justify-content: space-between;
+}
