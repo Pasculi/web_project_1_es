@@ -3,5 +3,6 @@
   flex-basis: 711px;
   flex-direction: column;
   justify-content: space-between;
+  row-gap: 125px;
   margin:0;
 }
