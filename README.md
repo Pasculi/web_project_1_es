@@ -2,6 +2,7 @@
 
 [HTML]: https://developer.mozilla.org/es/docs/Web/HTML
 [CSS]: https://developer.mozilla.org/
+[LinkPage]: https://pasculi.github.io/web_project_1_es/
 
 [GITHUB]: https://github.com/Pasculi
 [Linkedin]: https://www.linkedin.com/in/jsepulvedaturpie/
@@ -36,3 +37,5 @@ El proyecto se basa en la utilización de la metodología _*BEM*_, Las hojas de 
 
 [Linkedin]
 
+## Link del deploy de la página
+[Aprender a aprender][LinkPage]
